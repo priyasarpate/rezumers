@@ -24,6 +24,9 @@
     height: 80px;
     border-bottom: 2px solid transparent;
   }
+  .listItems{
+    color: #000;
+  }
   
   .hamburger {
     display: none;
