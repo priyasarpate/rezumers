@@ -1,6 +1,7 @@
 import Head from "next/head";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
+import Template from "../components/Template";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <HeroSection />
+      <Template />
     </div>
   );
 }

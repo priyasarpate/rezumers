@@ -26,8 +26,7 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
+      className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-bg_color"
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
@@ -36,7 +35,7 @@ const Navbar = () => {
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
           <li className="p-4">
             <Link href="/work">
-            <button className="font-bold py-2 px-0 w-40 text-main_text rounded-full border-2 border-gray">
+            <button className="font-bold py-2 px-0 w-40 text-main_text rounded-full border-2 border-main_text">
             Try for free
             </button> 
             </Link>

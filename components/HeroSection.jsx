@@ -5,7 +5,7 @@ import Image from "next/image";
 function HeroSection() {
   return (
     <div>
-      <div class="flex items-center justify-center min-h-screen">
+      <div class="flex items-center justify-center min-h-screen bg-bg_color">
         <div class="flex items-center justify-between text-#3F497F">
           <div class="flex flex-col px-20 p-20 mt-20">
             <p class="font-bold text-6xl text-main_text">
