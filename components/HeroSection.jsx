@@ -18,7 +18,7 @@ function HeroSection() {
               included.
             </span>
             <button className="font-bold mt-10 py-3 px-0 w-56 border-btn_bg text-white rounded-full bg-btn_bg">
-              Button
+              Try for free
             </button>
           </div>
           <Image

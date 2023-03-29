@@ -1,8 +1,13 @@
-import '../styles/globals.css'
-import 'antd/dist/antd.css';
+// import { FormProvider } from ".././components/context/index";
+import  FormProvider  from "../components/context/index";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <FormProvider>
+      <Component {...pageProps} />
+    </FormProvider>
+  );
 }
 
-export default MyApp
+export default MyApp;
+
